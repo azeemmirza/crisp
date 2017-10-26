@@ -1,4 +1,4 @@
-package DFA;
+package Regex;
 
 public class Constants {
 
@@ -75,5 +75,6 @@ public class Constants {
 
         int initialState = 0, finalState = 1;
 
+        return false;
     }
 }
