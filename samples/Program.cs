@@ -186,9 +186,9 @@ namespace lexicalanalyzer
 
         }
 
-        public bool isopertor(char c)
-        {
-            return (c == '+' || c == '-' || c == '*' || c == '/' || c == '>' || c == '<' || c == '&' || c == '=' || c == '!');
+        public bool isopertor(char c){
+            return
+            (c == '+' || c == '-' || c == '*' || c == '/' || c == '>' || c == '<' || c == '&' || c == '=' || c == '!');
         }
 
         public bool IsWordBreaker(char c)
