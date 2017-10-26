@@ -153,6 +153,7 @@ namespace lexicalanalyzer
             }
             return tokenarray;
         }
+
         public void addoperatortoken()
         {
             string classname = null;
@@ -184,10 +185,12 @@ namespace lexicalanalyzer
             tokenarray.Add(new tokens(classname, new string(temp, 0, j + 1), lineno));
 
         }
+
         public bool isopertor(char c)
         {
             return (c == '+' || c == '-' || c == '*' || c == '/' || c == '>' || c == '<' || c == '&' || c == '=' || c == '!');
         }
+
         public bool IsWordBreaker(char c)
         {
             return (c == '(' || c == ')' || c == '[' || c == ',' || c == ']' || c == '{' || c == '}' || c == ';' || c == ':');
@@ -202,6 +205,7 @@ namespace lexicalanalyzer
             i--;
             return new string(temp, 0, j);
         }
+
         public string stringliteral()
         {
             if (i < codelength)
@@ -289,6 +293,7 @@ namespace lexicalanalyzer
             j = 0;
         }
     }
+
     class tokens
     {
         string classname;
@@ -526,6 +531,7 @@ namespace lexicalanalyzer
             return this.lineno;
         }
     }
+
     class Program
     {
         static void Main(string[] args)

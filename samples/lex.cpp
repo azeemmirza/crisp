@@ -22,11 +22,10 @@ printf(“\nString length is: %d\n”, cnt); //(OPTIONAL)To display string lengt
 
 for (i = 0; i < cnt; ++i) //Loop to store ascii values in array ascii
 {
-ascii[i] = (int)expr[i];
+    ascii[i] = (int)expr[i];
 }
 
 for(i=0;i<cnt;++i)
-
 {
 
 if( isdigit(expr[i]) ) // Condition for current element to be digit

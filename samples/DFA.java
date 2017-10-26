@@ -1,4 +1,3 @@
-/*
 package DFA;
 
 
@@ -207,4 +206,4 @@ public class DFA
             else
         return a[s, 1];
     }
-}*/
+}

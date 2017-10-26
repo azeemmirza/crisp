@@ -1,4 +1,4 @@
-package Regex;
+package RegularExpressions;
 
 public class Constants {
 

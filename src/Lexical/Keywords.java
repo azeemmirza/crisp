@@ -1,4 +1,4 @@
-package Symbols;
+package Lexical;
 
 public enum Keywords {
 
