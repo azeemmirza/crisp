@@ -1,11 +1,6 @@
 package FiniteAutomata;
 
 public class IntegerConstant extends Constants{
-    public enum STATE{
-        START, A, ACCEPT, DEAD
-    }
-    STATE states;
-    STATE result;
 
     public IntegerConstant(String input){
         char c [] = input.toCharArray();
