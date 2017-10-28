@@ -6,7 +6,13 @@ public class Lexical {
         this.sourceCode = sourceCode;
     }
 
+    private String tokenizr(){
+        int i =0;
+        String code = this.sourceCode;
+        while(i<sourceCode.length()){
 
-
+        }
+        return null;
+    }
 
 }
