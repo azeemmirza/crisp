@@ -1,5 +1,7 @@
 
 import FiniteAutomata.*;
+import Lexical.Lexical;
+
 public class Crisp {
 
     public static void main (String args []){
@@ -11,9 +13,12 @@ public class Crisp {
 
         if(getResult.status){
 
-            System.out.println(getResult.fileContent);
-            StringConstant Obj = new StringConstant(getResult.fileContent);
+            //System.out.println(getResult.fileContent);
+
 
         }else System.out.print(getResult.code);
+
+        Lexical Obj2 = new Lexical(getResult.fileContent);
+        Obj2.Ana("file.txt");
     }
 }
