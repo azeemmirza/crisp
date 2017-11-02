@@ -20,7 +20,7 @@ public class Constants {
     }
     //ASCII Code check for character '+' and '-' only
     protected boolean isChar(char c){
-        if(c <= 65 || c== 90 ||c <= 97 || c== 122){
+        if((c >= 65 && c<= 90) || (c >= 97 && c<= 122)){
             return true;
         }else return false;
     }
@@ -76,6 +76,10 @@ public class Constants {
         if(isDigit(c) || isChar(c) || isSpecialChar(c)){
             return true;
         }else return false;
+    }
+    protected boolean isUnderscore(char c){
+        if(c == 95) return true;
+        else return false;
     }
 
     public boolean get(){

@@ -63,8 +63,6 @@ public class StringConstant extends Constants {
             output = this.states.ACCEPT;
         } else if (isBS(c)) {
             output = this.states.C;
-        } else if(isEscapseSequence(c)){
-            output = this.states.DEAD;
         }else output = this.states.B;
         return output;
     }

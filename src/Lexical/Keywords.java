@@ -21,5 +21,7 @@ public enum Keywords {
     FLT,
     BOOL,
     PRINT,
-    SCAN
+    SCAN,
+    TRUE,
+    FALSE
 }
