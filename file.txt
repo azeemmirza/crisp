@@ -1,2 +1,2 @@
 //this is comment
-INT a = 3 ;
+a = 8 ;

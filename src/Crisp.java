@@ -27,7 +27,7 @@ public class Crisp {
         Lexical Obj2 = new Lexical(getResult.fileContent);
         Obj2.Ana("file.txt");
 
-        Obj2.Literrr();
+        Obj2.tokenListIterator();
 
     }
 }

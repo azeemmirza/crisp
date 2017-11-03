@@ -31,7 +31,7 @@ public class Lexical {
                 return;
             }
 
-            //System.out.print(spiltter[i] + ": ");
+
 
             try {
 
@@ -79,17 +79,22 @@ public class Lexical {
 
     }
 
-    public void Literrr() {
-        Iterator objj = TokenList.iterator();
+    public void tokenListIterator() {
 
-        int i = 0;
-        while (objj.hasNext()){
+
+        int sizeOfTokenList = TokenList.size(), i = 0;
+        System.out.println("Number of the Tokens: "+ sizeOfTokenList);
+        while (i<sizeOfTokenList){
             Token obj = this.TokenList.get(i);
 
-            System.out.print(obj.lexeme + ": "+ obj.type + "- lineNo: " + obj.lineNo);
+            System.out.print(i+": [ " + obj.lexeme + " : "+ obj.type + "- lineNo: " + obj.lineNo+" ]");
             System.out.println();
             i++;
         }
+
+
+
+
         /*Token obj = TokenList.get(2);
         System.out.println(obj.lexeme);
         System.out.println(obj.lineNo);
