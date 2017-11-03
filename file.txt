@@ -1,3 +1,2 @@
 //this is comment
-The another line
-The another
+INT a = 3 ;

@@ -1,6 +1,0 @@
-// shortest good # $ % & ~ `
-do
-  	start
-	  	read x .
-	finish 
-return

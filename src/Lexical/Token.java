@@ -6,6 +6,9 @@ public class Token {
     int lineNo;
     Token NextToken;
 
+    public Token(Token obj){
+
+    }
     public Token(String lexeme, String type, int lineNo){
         this.lexeme = lexeme;
         this.type = type;
@@ -14,5 +17,4 @@ public class Token {
     public Token get(){
         return this;
     }
-
 }

@@ -1,6 +1,0 @@
-// shortest error on + "+ received . expected on line 4"
-do
-	start
-		read x +
-	finish 
-return
