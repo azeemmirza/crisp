@@ -13,7 +13,7 @@ public class SourceReader {
     }
 
     Source source = new Source();
-    SourceReader(String file){
+    private SourceReader(String file){
         StringBuilder builder = new StringBuilder();
         this.source.fileName = file;
         this.source.filePath = file;

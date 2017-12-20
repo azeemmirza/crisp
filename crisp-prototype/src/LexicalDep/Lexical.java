@@ -1,13 +1,10 @@
-package Lexical;
+package LexicalDep;
 
-import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.ListIterator;
 
 public class Lexical {
     String sourceCode;
@@ -58,7 +55,7 @@ public class Lexical {
         return true;
      }else return false;
     }
-    public void Ana(String filePath) {
+    public void reader(String filePath) {
         int lineNo = 1;
         try {
             BufferedReader reader = new BufferedReader(new FileReader(filePath));
@@ -70,10 +67,10 @@ public class Lexical {
                 lineNo++;
             }
         } catch (FileNotFoundException e) {
-
+            System.out.println("Not found");
 
         } catch (IOException e) {
-
+            System.out.println("IO Exception");
         }
 
 

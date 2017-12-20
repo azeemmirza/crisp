@@ -1,4 +1,4 @@
-package Lexical;
+package LexicalDep;
 
 public enum Keywords {
 

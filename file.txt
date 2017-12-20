@@ -1,2 +1,2 @@
 //this is comment
-a = 8 ;
+if ( )
